@@ -1,6 +1,5 @@
-html{
-  padding: 0px 3px;
-  margin: 0;
+html,body{
+ overflow-x: hidden;
 }
 .navbar {
   display: flex;
@@ -12,15 +11,16 @@ html{
   margin-left: 1%;
   width: 8%;
 }
-.Search {
+.searchbox{
   display: flex;
-  margin-top: 4%;
+  width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4vw 5vw 0 5vw;
 }
-
-.button {
-  margin-top: 0.5%;
+Button, Stack{
+  height: 55px;
 }
-
 .marques {
   margin-top: 5%;
 }
